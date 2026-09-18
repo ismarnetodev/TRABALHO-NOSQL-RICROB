@@ -1,0 +1,25 @@
+[project]
+name = "trabalho-nosql-ricrob"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ismarnetodev", email = "dsxzz41@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "folium>=0.20.0",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "pymongo>=4.18.1",
+    "sqlalchemy>=2.0.54",
+    "streamlit>=1.64.0",
+    "streamlit-folium>=0.27.4",
+]
+
+[project.scripts]
+trabalho-nosql-ricrob = "trabalho_nosql_ricrob:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
